@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Header.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./Dovom.css">
+    <link rel="stylesheet" type="text/css" href="slider.css" />
+    <title>Document</title>
+</head>
+
+<body>
+  <nav class="bg-white-800">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
+        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false" onClick="toggle()">
+            <span class="sr-only">Open main menu</span>
+           
+            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+         
+            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-end">
+         
+          <div class="hidden sm:block sm:ml-6 float-right">
+            <div class="flex" id="h-header">
+                <a href="./index.html" class="link">
+                    Domov
+                </a>
+                <a href="./Projektu.html" class="link">
+                    O projektu
+                </a>
+                <a href="./Raziskwa.html" class="link">
+                    Raziskava
+                </a>
+                <a href="Partner.html" class="link">
+                    Partnerji projekta
+                </a>
+               
+                
+               
+                <a href="./Aktualno.html" class="link">
+                    Aktualno
+                </a>
+               
+                <a href="./Kontakt.html" class="link">
+                  Kontakt
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="absolute inset-y-0 right-0 flex items-center pr-2  sm:inset-auto sm:ml-6 sm:pr-0">
+        
+          <div class="ml-3 relative">
+            <div>
+              <a class="">
+                <span class="sr-only">Open user menu</span>
+                <img class="h-[4rem] w-[3rem] ti" src="./asserts/logo.png" alt="" />
+                <!-- <img class="sm:hidden  h-[4rem] w-[3rem]" src="./asserts/logo-01-removebg-preview.png" alt="" /> -->
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sm:hidden" id="mobile-menu">
+      <div class="px-2 pt-2 pb-3 space-y-1">
+        <a href="./index.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+            Domov
+        </a>
+        <a href="./Projektu.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+            O projektu
+        </a>
+        <a href="./Raziskwa.html" class=" block px-3 py-2 font-normal rounded-md text-sm">
+            Raziskava
+        </a>
+        <a href="Partner.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+            Partnerji projekta
+        </a>
+        <a href="./Aktualno.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+            Aktualno
+        </a>
+        <a href="./Kontakt.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+            Kontakt
+        </a>
+      </div>
+    </div>
+
+  </nav>
+
+
+    <div class="projektu-page">
+        <div class="tmain1">
+          <div class="Projektu flex pb-[3rem] lg:pb-[6rem]">
+            <div class="tmain2">
+              <div class="text-2 ml-[2rem] lg:ml-[16rem]">
+                <img src="./asserts/TextImg.png" alt="" class="ml-[1rem] mt-[5rem]" />
+                <p class="font-normal mt-[-8rem] w-auto lg:w-[689px] leading-5 text-lg ml-[4rem] lg:ml-[8rem] ">
+                  V družbi živimo ljudje z enakimi pravicami. Fraza, prepogosto
+                  zapisana le na papir. Ljudje z oviranostmi se iz dneva v dan
+                  srečujejo s situacijami, v katerih so njihove osnovne pravice
+                  tako ali drugače kršene ali onemogočene. Eden od takšnih
+                  primerov je tudi pravica do parkiranja na mestih, rezerviranih
+                  za invalide. Študija, ki je bila izvedena na Fakulteti za
+                  varnostne vede Univerze v Mariboru, je pokazala na veliko
+                  pomanjkanje družbene zavesti in solidarnosti v odnosu do
+                  invalidov in parkiranja na mestih, rezerviranih za invalide.
+                </p>
+                <p class="font-normal mt-[2rem] w-auto lg:w-[689px] leading-5 ml-[4rem] text-lg lg:ml-[8rem]">
+                  Pomembno pa je, da tega ne gledamo in razumemo samo v ozkosti
+                  pojava, temveč v takšnem vedenju prepoznamo znak širšega
+                  pomanjkanja moralne odgovornosti. Število kršitev, zaznanih
+                  tekom raziskave, je bilo tako visoko, da ne moremo govoriti o
+                  slučaju. V ta namen smo partnerji pripravili projekt ozaveščanja
+                  in promocije kulture odgovornosti ter vrednot na področju
+                  parkiranja na mestih za invalide, ki pod sloganom PARKIRAJ
+                  IZGOVORE DRUGAM (ne na mesta, rezervirana za invalide) ponuja
+                  rešitve za sistematično obravnavo problematike na več ravneh, ki
+                  so med seboj neločljivo povezane.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="kaj">
+          <div class="flex flex-wrap justify-between">
+            <div class="lg:basis-auto basis-full ml-[3rem] lg:ml-[3rem] lg:mr-0 mr-[1rem] mt-[10rem] mb-[4rem] lg:mb-[10rem]">
+              <p class="lg:text-5xl lg:leading-loose text-2xl font-bold mb-[2rem]">
+                Kaj želimo doseči
+              </p>
+              <ul>
+                <li class="font-normal mb-[1rem] text-lg w-auto lg:w-[565px]">
+                  Ozaveščati o problematiki parkiranja invalidov in krepiti
+                  solidarnost do sočloveka v prometu in širši družbi.
+                </li>
+                <li class="font-normal mb-[1rem] text-lg w-auto lg:w-[565px]">
+                  Izpostaviti zaskrbljujoče rezultate raziskave, ki nakazujejo na
+                  nizko raven kulture v družbi in posluha do invalidov.
+                </li>
+                <li class="font-normal mb-[1rem] text-lg w-auto lg:w-[565px]">
+                  Vplivati na izboljšanje razmer, vezanih na parkiranje na
+                  parkirnih mestih, rezerviranih za invalide.
+                </li>
+                <li class="font-normal mb-[1rem] text-lg w-auto lg:w-[565px]">
+                  Spodbuditi širšo javno debato o kulturi v prometu in
+                  vključenosti.
+                </li>
+              </ul>
+            </div>
+  
+            <div class="lg:mt-[10rem] lg:mr-[1rem]  ml-[3rem] lg:ml-0 mt-[3rem] mb-[3rem] lg:mb-[10rem]">
+              <p class="lg:text-5xl lg:leading-loose  text-2xl font-bold mb-[2rem]">
+                Kaj želimo doseči
+              </p>
+              <ul>
+                <li class="font-normal mb-[1rem] text-lg w-auto lg:w-[565px]">
+                  Ozaveščati o problematiki parkiranja invalidov in krepiti
+                  solidarnost do sočloveka v prometu in širši družbi.
+                </li>
+                <li class="font-normal mb-[1rem] text-lg w-auto lg:w-[565px]">
+                  Izpostaviti zaskrbljujoče rezultate raziskave, ki nakazujejo na
+                  nizko raven kulture v družbi in posluha do invalidov.
+                </li>
+                <li class="font-normal mb-[1rem] text-lg w-auto lg:w-[565px]">
+                  Vplivati na izboljšanje razmer, vezanih na parkiranje na
+                  parkirnih mestih, rezerviranih za invalide.
+                </li>
+                <li class="font-normal mb-[1rem] text-lg w-auto lg:w-[565px]">
+                  Spodbuditi širšo javno debato o kulturi v prometu in
+                  vključenosti.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="red-banner p-[5rem]">
+          <center>
+            <p class="lg:text-5xl text-2xl w-max text-white lg:leading-loose font-bold mb-[1rem]">
+              PARKIRAJ IZGOVORE DRUGAM!
+            </p>
+          </center>
+          <center>
+            <p class="lg:text-4xl lg:leading-loose text-xl  text-white font-bold">
+              Ne na mesta, rezervirana za invalide.
+            </p>
+          </center>
+        </div>
+  
+        <div class="pod">
+          <div class="pod1">
+            <div class="pod2">
+              <div class="headeing">
+                <center>
+                  <p class="line line1 font-normal text-4xl absolute lg:w-[100%] lg:ml-[-3rem] leading-extra-loose mt-[2rem] pt-[9rem]">
+                    Podpirajo nas
+                  </p>
+                </center>
+              </div>
+              <div class="flex flex-wrap justify-between">
+                <div class="lg:basis-auto basis-full mr-[2rem] lg:mr-0  ml-[1rem]  mt-[20rem] mb-[5rem]">
+                  <center>
+                    <img src="./asserts/pod1.png" alt="" />
+                  </center>
+                  <p class="m-heading text-xl font-bold ">
+                    DRUŠTVO DISTROFIKOV SLOVENIJE
+                  </p>
+                  <a
+                    to="#"
+                    class="a"
+                  > 
+                  <img src="./asserts/pov.png" alt="" />
+                  
+                  </a>
+                  <p class="mt-[2rem] mb-[2rem] lg:w-[565px] text-lg font-normal">
+                    Društvo distrofikov Slovenije je prostovoljna, samostojna,
+                    nevladna in nepridobitna nacionalna invalidska organizacija, v
+                    kateri se združujejo mišično in živčno-mišično oboleli
+                    (distrofiki).
+                  </p>
+                  <p class="lg:w-[565px] text-lg font-normal">
+                    Društvo predstavlja in zagovarja interese distrofikov, z
+                    izvajanjem različnih programov spodbuja njihovo aktivno in čim
+                    bolj neodvisno življenje, jim pomaga pri krepitvi talentov in
+                    zdravja ter promovira uresničevanje pravic in enakih možnosti
+                    invalidov.
+                  </p>
+                </div>
+  
+                <div class="lg:mr-[1rem] lg:mt-[20rem] mt-[2rem] mr-[2rem] mb-[5rem]">
+                  <center>
+                    <img src="./asserts/pod2.png" alt="" />
+                  </center>
+                  <p class="m-heading text-xl font-bold ">
+                    ZVEZA PARAPLEGIKOV SLOVENIJE
+                  </p>
+                  <a
+                  to="#"
+                  class="a"
+                > 
+                <img src="./asserts/pov.png" alt="" />
+                
+                </a>
+                  <p class="mt-[2rem] mb-[2rem] lg:w-[565px] text-lg font-normal">
+                    Zveza paraplegikov Slovenije je članica Nacionalnega sveta
+                    invalidskih organizacij Slovenije (NSIOS).
+                  </p>
+                  <p class="lg:w-[565px] text-lg font-normal">
+                    Je reprezentativna invalidska organizacija, ki predstavlja,
+                    varuje in uveljavlja pravice, ter interese paraplegikov in
+                    tetraplegikov na lokalni, nacionalni in mednarodni ravni.
+                  </p>
+                  <p class="lg:w-[565px] text-lg font-normal mt-[2rem]">
+                    Človekoljubna, dobrodelna, družbeno odgovorna in strokovna
+                    organizacija sama in skupaj s članicami ter drugimi opravlja
+                    dejavnosti na področju socialnega varstva.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="pod32">
+          <div class="pod">
+            <div class="pod1">
+              <div class="flex flex-wrap justify-between">
+                <div class="lg:basis-auto basis-full ml-[1rem] lg:ml-0 mr-[2rem] mt-[5rem] mb-[5rem] ">
+                  <center>
+                    <img src="./asserts/pod3.png" alt="" />
+                  </center>
+                  <p class="m-heading text-xl font-bold  lg:w-[428px]">
+                    ZVEZA DRUŠTEV SLEPIH IN SLABOVIDNIH SLOVENIJE
+                  </p>
+                  <a
+                  to="#"
+                  class="a"
+                > 
+                <img src="./asserts/pov.png" alt="" />
+                
+                </a>
+                  <p class="mt-[2rem] mb-[2rem] lg:w-[565px] text-lg font-normal">
+                    Zveza društev slepih in slabovidnih Slovenije je
+                    reprezentativna nacionalna invalidska organizacija,
+                    ustanovljena z namenom zadovoljevanja skupnih potreb članov po
+                    izvajanju posebnih socialnih in drugih programov ter storitev,
+                    posebej prirejenih za slepe in slabovidne.
+                  </p>
+                  <p class="lg:w-[565px] text-lg font-normal">
+                    Za potrebe slepih in slabovidnih izvajajo številne socialne
+                    programe in posebne storitve, s ključnim namenom, da se lahko
+                    slepi in slabovidni čim bolj neodvisno in enakopravno
+                    vključujejo v družbeno okolje.
+                  </p>
+                  <p class="lg:w-[565px] text-lg font-normal mt-[2rem]">
+                    Danes Zveza povezuje 9 medobčinskih društev iz Ljubljane,
+                    Maribora, Celja, Kranja, Ptuja, Nove Gorice, Kopra, Novega
+                    mesta ter Murske Sobote.
+                  </p>
+                </div>
+  
+                <div class="lg:mr-[1rem] lg:mt-[7.6rem] mb-[5rem] mr-[2rem]">
+                  <center>
+                    <img src="./asserts/pod4.png" alt="" />
+                  </center>
+                  <p class="m-heading text-xl font-bold  lg:w-[456px]">
+                    ZVEZA SONČEK –
+                  </p>
+                  <p class="m-heading text-xl font-bold ">
+                    ZVEZA DRUŠTEV ZA CEREBRALNO PARALIZO SLOVENIJE
+                  </p>
+                  <a
+                  to="#"
+                  class="a"
+                > 
+                <img src="./asserts/pov.png" alt="" />
+                
+                </a>
+                  <p class="mt-[2rem] mb-[2rem] lg:w-[565px] text-lg font-normal">
+                    Inštitut URI – SOČA je v petdesetih letih svojega obstoja
+                    postal mednarodno uveljavljena ustanova, ki s svojim znanjem,
+                    izkušnjami in raziskovalnim delom in številnimi nastopi naših
+                    strokovnjakov na pomembnih mednarodnih konferencah in
+                    delavnicah pripomore k razvoju rehabilitacijske dejavnosti.
+                  </p>
+                  <p class="lg:w-[565px] text-lg font-normal">
+                    Inštitut je organizacija, ki jo lahko prištevamo med
+                    uspešnejše na področju zdravstva.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="pod">
+          <div class="pod1">
+            <div class="pod2">
+              <div class="flex flex-wrap justify-between">
+                <div class="lg:basis-auto basis-full ml-[1rem] mr-[2rem] lg:ml-0  mt-[5rem] mb-[5rem]">
+                  <center>
+                    <img src="./asserts/pod5.png" alt="" />
+                  </center>
+                  <p class="m-heading text-xl font-bold  lg:w-[428px]">
+                    ZVEZA ZA ŠPORT INVALIDOV SLOVENIJE -PARAOLIMPIJSKI KOMITE
+                  </p>
+                  <a
+                    to="#"
+                    class="a"
+                  > 
+                  <img src="./asserts/pov.png" alt="" />
+                  
+                  </a>
+                  <p class="mt-[2rem] mb-[2rem] lg:w-[565px] text-lg font-normal">
+                    Zveza za šport invalidov Slovenije - Paralimpijski komite ima
+                    svoje začetke delovanja tesno povezane s športno dejavnostjo
+                    vojaških vojnih invalidov.
+                  </p>
+                  <p class="lg:w-[565px] text-lg font-normal">
+                    Sedanja organiziranost ZŠIS – PK ima svoje korenine v 90.
+                    letih prejšnjega stoletja, ko se je 10 nacionalnih invalidskih
+                    organizacij odločilo, da ustanovijo ŽŠIS-PK, ki je postala
+                    zveza nacionalnih invalidskih zvez.
+                  </p>
+                  <p class="lg:w-[565px] text-lg font-normal mt-[2rem]">
+                    Poverile so ji izvajanje športne dejavnosti na državnem nivoju
+                    in vse zadeve v zvezi z iskanjem, pripravo in nastopanjem na
+                    najboljših slovenskih športnikov invalidov na uradnih
+                    mednarodnih tekmovanjih, kot so evropska in svetovna
+                    prvenstva, svetovne in paraolimpijske igre.
+                  </p>
+                </div>
+  
+                <div class="lg:mr-[1rem] mr-[2rem] mt-[5rem] mb-[5rem]">
+                  <center>
+                    <img src="./asserts/pod6.png" alt="" />
+                  </center>
+                  <p class="m-heading text-xl font-bold  lg:w-[456px]">
+                    UNIVERZITETNI REHABILITACIJSKI INŠTITUT REPUBLIKE SLOVENIJE -
+                    SOČA
+                  </p>
+                  <a
+                    to="#"
+                    class="a"
+                  > 
+                  <img src="./asserts/pov.png" alt="" />
+                  
+                  </a>
+                  <p class="mt-[2rem] mb-[2rem] lg:w-[565px] text-lg font-normal">
+                    Inštitut URI – SOČA je v petdesetih letih svojega obstoja
+                    postal mednarodno uveljavljena ustanova, ki s svojim znanjem,
+                    izkušnjami in raziskovalnim delom in številnimi nastopi naših
+                    strokovnjakov na pomembnih mednarodnih konferencah in
+                    delavnicah pripomore k razvoju rehabilitacijske dejavnosti.
+                  </p>
+                  <p class="lg:w-[565px] text-lg font-normal">
+                    Inštitut je organizacija, ki jo lahko prištevamo med
+                    uspešnejše na področju zdravstva.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="pod">
+          <div class="pod1">
+            <div class="pod2">
+              <div class="flex flex-wrap justify-between pb-[7rem]">
+                <div class="lg:basis-auto basis-full lg:ml-0 mr-[2rem] ml-[1rem]  mt-[5rem] mb-[5rem]">
+                  <center>
+                    <img src="./asserts/pod7.png" alt="" />
+                  </center>
+                  <p class="m-heading text-xl font-bold  lg:w-[428px]">
+                    VARUH ČLOVEKOVIH PRAVIC REPUBLIKE SLOVENIJE
+                  </p>
+                  <a
+                    to="#"
+                    class="a"
+                  > 
+                  <img src="./asserts/pov.png" alt="" />
+                  
+                  </a>
+                  <p class="mt-[2rem] mb-[2rem] lg:w-[565px] text-lg font-normal">
+                    Varuh je samostojen in od drugih državnih institucij neodvisen
+                    organ. Bdi nad tem, ali državni organi, organi lokalnih
+                    skupnosti in nosilci javnih pooblastil (v nadaljevanju:
+                    organi) v Republiki Sloveniji pri svojem delu spoštujejo
+                    človekove pravice in temeljne svoboščine posameznikov in
+                    skupin.
+                  </p>
+                  <p class="lg:w-[565px] text-lg font-normal">
+                    Varuh lahko preiskuje primere nezakonitega ali nepravilnega
+                    dela organov in se pri svojem delu ravna po določilih ustave,
+                    pravnega reda Republike Slovenije ter mednarodnih pravnih
+                    aktov o človekovih pravicah in temeljnih svoboščinah.
+                  </p>
+                  <p class="lg:w-[565px] text-lg font-normal mt-[2rem]">
+                    Pri svojem posredovanju se lahko sklicuje tudi na načela
+                    pravičnosti in dobrega upravljanja.
+                  </p>
+                </div>
+  
+                <div class="lg:mr-[1rem] mr-[2rem] mt-[5rem] mb-[5rem]">
+                  <center>
+                    <img src="./asserts/pod8.png" alt="" />
+                  </center>
+                  <p class="m-heading text-xl font-bold lg:w-[456px]">
+                    DRUŠTVO ŠTUDENTOV INVALIDOV SLOVENIJE
+                  </p>
+                  <a
+                    to="#"
+                    class="a"
+                  > 
+                  <img src="./asserts/pov.png" alt="" />
+                  
+                  </a>
+                  <p class="mt-[2rem] mb-[2rem] lg:w-[565px] text-lg font-normal">
+                    Društvo študentov invalidov Slovenije je bilo ustanovljeno z
+                    namenom zagovarjanja interesov in posebnih potreb študentov s
+                    posebnimi potrebami ter izvajanja programov pomoči in drugih
+                    aktivnosti, ki prispevajo k izboljšanju položaja študentov s
+                    posebnimi potrebami na področju izobraževanja, bivanja in
+                    zaposlovanja.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="gallery">
+
+        <div class="photos">
+            <div class="block block-1 active">
+                <div
+                    class="text-center w-[80%] ml-auto mr-auto text-white lg:w-[687px] md:pt-[1rem] pt-[3rem] text-lg font-normal">
+                    “Parkirna mesta, rezervirana za invalide, niso privilegij, ampak osnovni pogoj, da lahko invalidi sploh koristijo določeno parkirišče. Običajna parkirna mesta so zanje namreč pogosto neuporabna (npr. preozka za presedanje iz avta na invalidski voziček, preveč oddaljena od stavbe za osebe z okvaro vida ali osebe, ki težko hodijo, …). Dejstvo, da ta parkirna mesta pogosto zasedejo vozniki, ki jih ne potrebujejo, je največkrat posledica neznanja in nizke vozniške kulture. Zato je projekt »Parkiraj izgovore drugam! Ne na mesta, rezervirana za invalide.« zelo pomemben, saj prispeva k odpravljanju nepotrebnih ovir, s katerimi se invalidi soočajo pri vsakodnevnih aktivnosti.”
+                </div>
+                <div
+                    class="text-center ml-auto mr-auto text-white lg:w-[687px] mt-[3rem] pb-[3rem] text-lg font-normal">
+                    <p class="">Mateja Toman</p>
+                    <p class="">
+                        predsednica Društva distrofikov Slovenije
+                    </p>
+                </div>
+            </div>
+
+            <div class="block block-2">
+                <div
+                    class="text-center w-[80%] ml-auto mr-auto text-white lg:w-[687px] md:pt-[6rem] pt-[3rem] text-lg font-normal">
+                    ki so označeni za
+                    parkiranje za invalide. Proti takšnemu ravnanju se borimo z
+                    osveščanjem in če je potrebno, vozila tudi odstranimo.Zelo dobro poznamo zagate gibalno
+                    oviranih, s katerimi se srečujejo
+                    ob mobilnosti v vsakdanjem okolju. Na URI - Soča se dnevno srečujemo
+                    z napačno parkiranimi vozili na prostorih.
+                </div>
+                <div
+                    class="text-center ml-auto mr-auto text-white lg:w-[687px] mt-[3rem] pb-[3rem] text-lg font-normal">
+                    <p class="">
+                        generalni direktor Univerzitetnega rehabilitacijskega inštituta RS
+                        - Soča
+                    </p>
+                    <p class="">Mag. Robert Cugelj</p>
+                </div>
+            </div>
+
+            <div class="block block-3">
+                <div
+                    class="text-center w-[80%] ml-auto mr-auto text-white lg:w-[687px] md:pt-[6rem] pt-[3rem] text-lg font-normal">
+                    Zelo dobro poznamo zagate gibalno oviranih, s katerimi se srečujejo
+                    ob mobilnosti v vsakdanjem okolju. Na URI - Soča se dnevno srečujemo
+                    z napačno parkiranimi vozili na prostorih, ki so označeni za
+                    parkiranje za invalide. Proti takšnemu ravnanju se borimo z
+                    osveščanjem in če je potrebno, vozila tudi odstranimo.
+                </div>
+                <div
+                    class="text-center ml-auto mr-auto text-white lg:w-[687px] mt-[3rem] pb-[3rem] text-lg font-normal">
+                    <p class="">Mag. Robert Cugelj</p>
+                    <p class="">
+                        generalni direktor Univerzitetnega rehabilitacijskega inštituta RS
+                        - Soča
+                    </p>
+                </div>
+            </div>
+
+            <div class="block block-4">
+                <div
+                    class="text-center w-[80%] ml-auto mr-auto text-white lg:w-[687px] md:pt-[6rem] pt-[3rem] text-lg font-normal">
+                    ki so označeni za
+                    parkiranje za invalide. Proti takšnemu ravnanju se borimo z
+                    osveščanjem in če je potrebno, vozila tudi odstranimo.Zelo dobro poznamo zagate gibalno
+                    oviranih, s katerimi se srečujejo
+                    ob mobilnosti v vsakdanjem okolju. Na URI - Soča se dnevno srečujemo
+                    z napačno parkiranimi vozili na prostorih.
+                </div>
+                <div
+                    class="text-center ml-auto mr-auto text-white lg:w-[687px] mt-[3rem] pb-[3rem] text-lg font-normal">
+                    <p class="">
+                        generalni direktor Univerzitetnega rehabilitacijskega inštituta RS
+                        - Soča
+                    </p>
+                    <p class="">Mag. Robert Cugelj</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="prev">
+                <img src="./asserts/left.png" alt="">
+            </button>
+            <button class="next">
+                <img src="./asserts/right.png" alt="">
+            </button>
+        </div>
+    </div>
+    <div class="excl">
+        <img
+          src="./asserts/exlamation.png"
+          alt=""
+          class="absolute sm:mt-[-23rem] mt-[-23rem] lg:mt-[-23rem] left-[89%]"
+        />
+      </div>
+
+    <div class='footer mt-[-2rem]'>
+        <div class='lg:ml-[6rem] lg:mr-[6rem] text-center  p-[2rem] text-lg font-normal mt-[2rem] co'>
+        Raziskovalna dejavnost in projekt Parkiraj izgovore drugam (ne na mesta, rezervirana za invalide) sta podprta s strani Javne agencije Republike Slovenije za varnost prometa in Mestne občine Ljubljana.
+        </div>
+        <div class='text-center footer1 h-[80px] lg:h-[53px]'>
+      <p class='text-white pt-[11px] text-lg font-normal'>  © 2020 - Parkiraj izgovore drugam. Vse pravice pridržane. </p>
+        </div>
+    </div>
+
+</body>
+<script src="./Index.js"></script>
+
+</html>

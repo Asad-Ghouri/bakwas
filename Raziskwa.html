@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Header.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./Dovom.css">
+    <link rel="stylesheet" type="text/css" href="slider.css" />
+    <title>Document</title>
+</head>
+
+<body>
+  <nav class="bg-white-800">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
+        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false" onClick="toggle()">
+            <span class="sr-only">Open main menu</span>
+           
+            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+         
+            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-end">
+         
+          <div class="hidden sm:block sm:ml-6 float-right">
+            <div class="flex" id="h-header">
+                <a href="./index.html" class="link">
+                    Domov
+                </a>
+                <a href="./Projektu.html" class="link">
+                    O projektu
+                </a>
+                <a href="./Raziskwa.html" class="link">
+                    Raziskava
+                </a>
+                <a href="Partner.html" class="link">
+                    Partnerji projekta
+                </a>
+               
+                
+               
+                <a href="./Aktualno.html" class="link">
+                    Aktualno
+                </a>
+               
+                <a href="./Kontakt.html" class="link">
+                  Kontakt
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="absolute inset-y-0 right-0 flex items-center pr-2  sm:inset-auto sm:ml-6 sm:pr-0">
+        
+          <div class="ml-3 relative">
+            <div>
+              <a class="">
+                <span class="sr-only">Open user menu</span>
+                <img class="h-[4rem] w-[3rem] ti" src="./asserts/logo.png" alt="" />
+                <!-- <img class="sm:hidden  h-[4rem] w-[3rem]" src="./asserts/logo-01-removebg-preview.png" alt="" /> -->
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sm:hidden" id="mobile-menu">
+      <div class="px-2 pt-2 pb-3 space-y-1">
+        <a href="./index.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+            Domov
+        </a>
+        <a href="./Projektu.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+            O projektu
+        </a>
+        <a href="./Raziskwa.html" class=" block px-3 py-2 font-normal rounded-md text-sm">
+            Raziskava
+        </a>
+        <a href="Partner.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+            Partnerji projekta
+        </a>
+        <a href="./Aktualno.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+            Aktualno
+        </a>
+        <a href="./Kontakt.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+            Kontakt
+        </a>
+      </div>
+    </div>
+
+  </nav>
+
+
+    <div class="raziskwa-page">
+        <div class="tmain1">
+          <div class="Projektu flex pb-[3rem] lg:pb-[6rem]">
+            <div class="tmain2">
+              <div class="flex ml-[2rem] lg:ml-[16rem] pt-[1rem]">
+                <p class="text-base font-bold ml-[24px]  d">2015</p>
+                <p class="font-bold text-3xl ml-[24px] mt-[-7px]  d1">2018</p>
+                <p class="text-base font-bold ml-[24px] d">2021</p>
+                <p class="text-base font-bold ml-[24px] d">2023</p>
+              </div>
+              <div class="text-2 ml-[2rem] lg:ml-[16rem]">
+                <img src="./asserts/TextImg.png" alt="" class="ml-[1rem] mt-[5rem]" />
+                <p class="font-normal mt-[-8rem] w-auto lg:w-[689px] leading-5 text-lg ml-[4rem] lg:ml-[8rem] ">
+                  Na Fakulteti za varnostne vede Univerze v Mariboru je bila pod
+                  vodstvom izr. prof. dr. Aleša Bučarja Ručmana oktobra 2018
+                  opravljena ponovna obširna raziskava o parkiranju na parkirnih
+                  mestih, rezerviranih za invalide.
+                </p>
+                <p class="font-normal mt-[2rem] w-auto lg:w-[689px] leading-5 ml-[4rem] text-lg lg:ml-[8rem]">
+                  Ugotovitve raziskave podajajo vpogled v veljavnost oz.
+                  spoštovanje formalnih in neformalnih družbenih norm in
+                  solidarnosti v družbi, dodatno pa merijo uspešnost ozaveščevalne
+                  kampanje “Parkiraj izgovore drugam! Ne na mesta, rezervirana za
+                  invalide”.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="p-pod">
+          <div class="basis-auto flex xl:ml-[30%] xl:block flex-wrap justify-center lg:ml-[12rem] lg:mr-[12rem] ml-[2rem] mr-[2rem] mt-[5rem]">
+            <p class="mb-[2rem] mt-[2rem] font-bold lg:mt-[0px] lg:leading-loose text-3xl lg:text-5xl">
+              Namen raziskave 2018
+            </p>
+            <ul>
+              <li class="mb-[1rem] lg:w-[565px] text-lg">
+                oceniti učinkovitost ozaveščevalne kampanje »Parkiraj izgovore
+                drugam! Ne na mesta, rezervirana za invalide.«,
+              </li>
+              <li class="mb-[1rem] lg:w-[565px] text-lg">
+                dobiti natančen vpogled v dogajanje na parkirnih mestih,
+                rezerviranih za invalide,
+              </li>
+              <li class="mb-[1rem] lg:w-[565px] text-lg">
+                ugotoviti pogostost nepravilnega parkiranja na mestih,
+                rezerviranih za invalide,
+              </li>
+              <li class="mb-[1rem] lg:w-[565px] text-lg">
+                ugotoviti profil voznikov, ki neupravičeno parkirajo na mestih,
+                rezerviranih za invalide, ugotoviti, kako dolgo so vozila
+                neupravičeno parkirana na rezerviranih mestih.
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="p-pod">
+          <p class="font-bold  w-[647px] xl:ml-[15%] ml-[1rem] mt-[5rem] line line3  lg:text-2xl text-xl lg:ml-[-14rem]">
+            Potek raziskave 2018
+          </p>
+          <div class="basis-auto xl:block xl:ml-[30%] flex flex-wrap justify-center lg:ml-[8rem] lg:mr-[8rem] ml-[2rem] mr-[2rem] mt-[2rem]">
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+              Raziskava je vključevala neposredno opazovanje 43 parkirnih mest,
+              rezerviranih za invalide, na 9 lokacijah v Ljubljani. Opazovana
+              parkirna mesta so bila izbrana glede na ugotovitve raziskave v letu
+              2015, ko je bil na teh mestih zabeležen največji promet oziroma
+              parkiranje vozil.
+            </p>
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+              Opazovana parkirna mesta se nahajajo ob ulicah v središču Ljubljane,
+              pred zdravstvenim domom (ZD Ljubljana Center), v nakupovalnih
+              središčih (BTC in City Park, ter nakupovalno središče Supernova na
+              Rudniku). Leta 2015 je bilo na teh lokacijah 42 rezerviranih
+              parkirnih mest, leta 2018 pa 43.
+            </p>
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+              OPOZORILO: podatki za leto 2015, navedeni spodaj, se nekoliko
+              razlikujejo od podatkov predstavljenih v zavihku za celotno
+              raziskavo za leto 2015. V raziskavi 2018 smo nadzorovali izbrana
+              parkirna mesta in zato so vse primerjave narejene s ponovnim
+              izračunom podatkov za leto 2015 za iste lokacije, ki so bile
+              vključene v raziskavo leta 2018.
+            </p>
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+              Bistvena prednost terenske raziskave v primerjavi s podatki o
+              kršitvah, ki jih imajo zbrane nadzorstvene institucijah (Mestno
+              redarstvo, Policija), je ta, da je z raziskavo omogočen vpogled v
+              sivo polje teh kršitev (neregistrirane primere kršitev), dodatno pa
+              je omogočena tudi primerjava z raziskavo leta 2015.
+            </p>
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+              Opazovalci so v dvojicah štiri dni po tri ure (skupaj 12 ur)
+              neprestano opazovali točno določena parkirna mesta in dobili vpogled
+              v dejansko dogajanje na teh mestih. Opazovanje je potekalo od 9. do
+              12. oktobra 2018 med 15.00 in 18.00 uro. Dodatna prednost terenske
+              raziskave je bila, da so bili opazovalci za razliko od formalnih
+              nadzornikov neprepoznavni, saj niso bili v uniformah in so bili
+              vedno odmaknjeni od opazovanega parkirnega mesta vsaj 10 metrov.
+            </p>
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+              V raziskavi je sodelovalo 62 opazovalcev in 2 nadzornika. S pomočjo
+              neposrednega terenskega opazovanja so zbirali podatke o dogajanju na
+              parkirnih mestih, rezerviranih za invalide.
+            </p>
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+              To mesto sta v raziskovanem obdobju neprestano nadzorovala vsaj dva
+              opazovalca, ki sta ločeno zbirala podatke o dogajanju.
+            </p>
+          </div>
+        </div>
+  
+        <div class="p-pod pb-[2rem]">
+          <div class="flex flex-wrap justify-center lg:ml-[8rem] lg:mr-[8rem]  mt-[8rem]">
+            <div class="flex-col mt-[3rem] lg:mr-[3rem] mr-[1rem]">
+              <p class="text-lg font-light t pb-[1rem]">Müller BTC</p>
+              <p class="text-lg font-light t pb-[1rem]">BTC Hala A</p>
+              <p class="text-lg font-light t pb-[1rem]">
+                Citypark garažna hiša PR
+              </p>
+              <p class="text-lg font-light t pb-[1rem]">
+                Citypark garažna hiša 2. nad
+              </p>
+              <p class="text-lg font-light t pb-[1rem]">Miklošičeva</p>
+              <p class="text-lg font-light t pb-[1rem]">Drama</p>
+              <p class="text-lg font-light t pb-[1rem]">Rimska (Pod Lipo)</p>
+              <p class="text-lg font-light t pb-[1rem]">ZD Metelkova</p>
+              <p class="text-lg font-light t pb-[1rem]">Supernova</p>
+            </div>
+  
+            <div class="flex-col  lg:mr-[7rem] mr-[2rem]">
+              <p class="text-lg font-bold t pb-[1rem]">2015</p>
+              <p class="text-lg font-normal t pb-[1rem]">2</p>
+              <p class="text-lg font-normal t pb-[1rem]">3</p>
+              <p class="text-lg font-normal t pb-[1rem]">9</p>
+              <p class="text-lg font-normal t pb-[1rem]">9</p>
+              <p class="text-lg font-normal t pb-[1rem]">2</p>
+              <p class="text-lg font-normal t pb-[1rem]">3</p>
+              <p class="text-lg font-normal t pb-[1rem]">2</p>
+              <p class="text-lg font-normal t pb-[1rem]">2</p>
+              <p class="text-lg font-normal t pb-[1rem]">10</p>
+            </div>
+  
+            <div class="flex-col">
+              <p class="text-lg font-bold t pb-[1rem]">2018</p>
+              <p class="text-lg font-normal t pb-[1rem]">2</p>
+              <p class="text-lg font-normal t pb-[1rem]">3</p>
+              <p class="text-lg font-normal t pb-[1rem]">9</p>
+              <p class="text-lg font-normal t pb-[1rem]">9</p>
+              <p class="text-lg font-normal t pb-[1rem]">2</p>
+              <p class="text-lg font-normal t pb-[1rem]">3</p>
+              <p class="text-lg font-normal t pb-[1rem]">2</p>
+              <p class="text-lg font-normal t pb-[1rem]">2</p>
+              <p class="text-lg font-normal t pb-[1rem]">10</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="p-pod1 h-[6px]"></div>
+  
+        <div class="pod">
+          <p class="font-bold pb-[1rem] w-[647px] xl:ml-[15%] ml-[1rem] mt-[8rem] line line3 line4 lg:text-2xl text-xl lg:ml-[-14rem] lg:mb-[1rem]">
+            Glavne ugotovitve raziskave 2018
+          </p>
+          <div class="basis-auto xl:block xl:ml-[30%] flex flex-wrap justify-center lg:ml-[8rem] lg:mr-[8rem] ml-[2rem] mr-[2rem]">
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+              V opazovanem času je bilo na vseh parkirnih mestih rezerviranih za
+              invalide zabeleženih 296 parkiranih vozil.
+            </p>
+  
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+              Med vsemi parkiranimi vozili je bilo 126 (43 %) takšnih, ki niso
+              imela nameščene ustrezne invalidske kartice in 170 (57 %), takšnih,
+              ki so invalidsko kartico imeli.
+            </p>
+  
+            <div class="mt-[2rem] mb-[2rem]">
+              <img src="./asserts/graph1.png" alt="" />
+            </div>
+  
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+              V primerjavi z letom 2015 je bilo 2018 število kršitev na opazovanih
+              parkirnih mestih bistveno nižje.
+            </p>
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+              Leta 2015 so bile na 42 parkirnih mestih na istih lokacijah
+              zabeležene v 12 urah kar 302 kršitve, medtem ko je bilo leta 2018 na
+              istih mestih in 43 parkirnih mestih v 12 urah zabeleženih 126
+              kršitev.
+            </p>
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+              Število kršitev je bilo leta 2018 za 58% manjše kot leta 2015.
+            </p>
+            <div class="flex flex-wrap mt-[5rem] mb-[5rem]">
+              <img src="./asserts/graph11.png" alt="" />
+              <img src="./asserts/graph12.png" alt="" />
+            </div>
+          </div>
+        </div>
+  
+        <div class="pb-[4rem] pod">
+          <p class="font-bold  w-[647px] xl:ml-[15%] ml-[1rem] mt-[8rem] lg:text-2xl text-xl lg:ml-[-14rem]">
+            Avtor raziskave:
+          </p>
+          <p class="font-bold pb-[1rem] line line3 line4 w-[647px] xl:ml-[15%] ml-[1rem]  lg:text-2xl text-xl lg:ml-[-14rem] lg:mb-[1rem]">
+            DOC. DR. ALEŠ BUČAR RUČMAN
+          </p>
+          <div class="basis-auto xl:block xl:ml-[30%] flex flex-wrap justify-center lg:ml-[8rem] lg:mr-[8rem] ml-[2rem] mr-[2rem]">
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+            Aleš Bučar Ručman je zaposlen na Fakulteti za varnostne vede, Univerza v Mariboru kot docent s področja sociologije.
+            </p>
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+  Ukvarja se s sociologijo odklonskosti, pri čemer njegov raziskovalni fokus vključuje analize različnih oblik odklonskosti, delovanje formalnega in neformalnega družbenega nadzorstva, posebej pa je osredotočen na povezavo med migracijami in kriminaliteto.
+            </p>
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+  Je avtor dveh znanstvenih monografij, zadnja Migracije in kriminaliteta: Pogled čez meje stereotipov in predsodkov je bila izdana pri Inštitutu za slovensko izseljenstvo in migracije, ZRC SAZU.
+            </p>
+            <p class="text-lg font-light pb-[1rem] w-[647px]">
+  Aleš Bučar Ručman je avtor in soavtor strokovnih monografij, poglavij v zbornikih in številnih znanstvenih člankov. Bil je mentor številnim študentom pri izdelavi njihovih zaključnih del. Predaval je na univerzah v tujini, pri svojem delu pa tudi aktivno sodeluje s tujimi raziskovalci.
+            </p>
+          </div>
+        </div>
+  
+      </div>
+
+
+    <div class="gallery">
+
+        <div class="photos">
+            <div class="block block-1 active">
+                <div
+                    class="text-center w-[80%] ml-auto mr-auto text-white lg:w-[687px] md:pt-[1rem] pt-[3rem] text-lg font-normal">
+                    “Parkirna mesta, rezervirana za invalide, niso privilegij, ampak osnovni pogoj, da lahko invalidi sploh koristijo določeno parkirišče. Običajna parkirna mesta so zanje namreč pogosto neuporabna (npr. preozka za presedanje iz avta na invalidski voziček, preveč oddaljena od stavbe za osebe z okvaro vida ali osebe, ki težko hodijo, …). Dejstvo, da ta parkirna mesta pogosto zasedejo vozniki, ki jih ne potrebujejo, je največkrat posledica neznanja in nizke vozniške kulture. Zato je projekt »Parkiraj izgovore drugam! Ne na mesta, rezervirana za invalide.« zelo pomemben, saj prispeva k odpravljanju nepotrebnih ovir, s katerimi se invalidi soočajo pri vsakodnevnih aktivnosti.”
+
+                </div>
+                <div
+                    class="text-center ml-auto mr-auto text-white lg:w-[687px] mt-[3rem] pb-[3rem] text-lg font-normal">
+                    <p class="">Mateja Toman</p>
+                    <p class="">
+                        predsednica Društva distrofikov Slovenije
+                    </p>
+                </div>
+            </div>
+
+            <div class="block block-2">
+                <div
+                    class="text-center w-[80%] ml-auto mr-auto text-white lg:w-[687px] md:pt-[6rem] pt-[3rem] text-lg font-normal">
+                    ki so označeni za
+                    parkiranje za invalide. Proti takšnemu ravnanju se borimo z
+                    osveščanjem in če je potrebno, vozila tudi odstranimo.Zelo dobro poznamo zagate gibalno
+                    oviranih, s katerimi se srečujejo
+                    ob mobilnosti v vsakdanjem okolju. Na URI - Soča se dnevno srečujemo
+                    z napačno parkiranimi vozili na prostorih.
+                </div>
+                <div
+                    class="text-center ml-auto mr-auto text-white lg:w-[687px] mt-[3rem] pb-[3rem] text-lg font-normal">
+                    <p class="">
+                        generalni direktor Univerzitetnega rehabilitacijskega inštituta RS
+                        - Soča
+                    </p>
+                    <p class="">Mag. Robert Cugelj</p>
+                </div>
+            </div>
+
+            <div class="block block-3">
+                <div
+                    class="text-center w-[80%] ml-auto mr-auto text-white lg:w-[687px] md:pt-[6rem] pt-[3rem] text-lg font-normal">
+                    Zelo dobro poznamo zagate gibalno oviranih, s katerimi se srečujejo
+                    ob mobilnosti v vsakdanjem okolju. Na URI - Soča se dnevno srečujemo
+                    z napačno parkiranimi vozili na prostorih, ki so označeni za
+                    parkiranje za invalide. Proti takšnemu ravnanju se borimo z
+                    osveščanjem in če je potrebno, vozila tudi odstranimo.
+                </div>
+                <div
+                    class="text-center ml-auto mr-auto text-white lg:w-[687px] mt-[3rem] pb-[3rem] text-lg font-normal">
+                    <p class="">Mag. Robert Cugelj</p>
+                    <p class="">
+                        generalni direktor Univerzitetnega rehabilitacijskega inštituta RS
+                        - Soča
+                    </p>
+                </div>
+            </div>
+
+            <div class="block block-4">
+                <div
+                    class="text-center w-[80%] ml-auto mr-auto text-white lg:w-[687px] md:pt-[6rem] pt-[3rem] text-lg font-normal">
+                    ki so označeni za
+                    parkiranje za invalide. Proti takšnemu ravnanju se borimo z
+                    osveščanjem in če je potrebno, vozila tudi odstranimo.Zelo dobro poznamo zagate gibalno
+                    oviranih, s katerimi se srečujejo
+                    ob mobilnosti v vsakdanjem okolju. Na URI - Soča se dnevno srečujemo
+                    z napačno parkiranimi vozili na prostorih.
+                </div>
+                <div
+                    class="text-center ml-auto mr-auto text-white lg:w-[687px] mt-[3rem] pb-[3rem] text-lg font-normal">
+                    <p class="">
+                        generalni direktor Univerzitetnega rehabilitacijskega inštituta RS
+                        - Soča
+                    </p>
+                    <p class="">Mag. Robert Cugelj</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="prev">
+                <img src="./asserts/left.png" alt="">
+            </button>
+            <button class="next">
+                <img src="./asserts/right.png" alt="">
+            </button>
+        </div>
+    </div>
+    <div class="excl">
+        <img
+          src="./asserts/exlamation.png"
+          alt=""
+          class="absolute sm:mt-[-23rem] mt-[-23rem] lg:mt-[-23rem] left-[89%]"
+        />
+      </div>
+
+    <div class='footer mt-[-2rem]'>
+        <div class='lg:ml-[6rem] lg:mr-[6rem] text-center  p-[2rem] text-lg font-normal mt-[2rem] co'>
+        Raziskovalna dejavnost in projekt Parkiraj izgovore drugam (ne na mesta, rezervirana za invalide) sta podprta s strani Javne agencije Republike Slovenije za varnost prometa in Mestne občine Ljubljana.
+        </div>
+        <div class='text-center footer1 h-[80px] lg:h-[53px]'>
+      <p class='text-white pt-[11px] text-lg font-normal'>  © 2020 - Parkiraj izgovore drugam. Vse pravice pridržane. </p>
+        </div>
+    </div>
+
+</body>
+<script src="./Index.js"></script>
+
+</html>

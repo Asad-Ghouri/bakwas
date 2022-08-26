@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Header.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./Dovom.css">
+    <link rel="stylesheet" type="text/css" href="slider.css" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="bg-white-800">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div class="relative flex items-center justify-between h-16">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false" onClick="toggle()">
+                <span class="sr-only">Open main menu</span>
+               
+                <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+             
+                <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-end">
+             
+              <div class="hidden sm:block sm:ml-6 float-right">
+                <div class="flex" id="h-header">
+                    <a href="./index.html" id="demov" class="link initial">
+                        Domov
+                    </a>
+                    <a href="./Projektu.html" class="link">
+                        O projektu
+                    </a>
+                    <a href="./Raziskwa.html" class="link">
+                        Raziskava
+                    </a>
+                    <a href="Partner.html" class="link">
+                        Partnerji projekta
+                    </a>
+                   
+                    
+                   
+                    <a href="./Aktualno.html" class="link">
+                        Aktualno
+                    </a>
+                   
+                    <a href="./Kontakt.html" class="link">
+                      Kontakt
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2  sm:inset-auto sm:ml-6 sm:pr-0">
+            
+              <div class="ml-3 relative">
+                <div>
+                  <a class="">
+                    <span class="sr-only">Open user menu</span>
+                    <img class="h-[4rem] w-[3rem] ti" src="./asserts/logo.png" alt="" />
+                    <!-- <img class="sm:hidden  h-[4rem] w-[3rem]" src="./asserts/logo-01-removebg-preview.png" alt="" /> -->
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="px-2 pt-2 pb-3 space-y-1">
+            <a href="./index.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+                Domov
+            </a>
+            <a href="./Projektu.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+                O projektu
+            </a>
+            <a href="./Raziskwa.html" class=" block px-3 py-2 font-normal rounded-md text-sm">
+                Raziskava
+            </a>
+            <a href="Partner.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+                Partnerji projekta
+            </a>
+            <a href="./Aktualno.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+                Aktualno
+            </a>
+            <a href="./Kontakt.html" class="block px-3 py-2 font-normal rounded-md text-sm">
+                Kontakt
+            </a>
+          </div>
+        </div>
+    
+      </nav>
+
+    <div class="Dovom">
+        <div class="banner" id="b-banner">
+            <p
+                class="text-center text-4xl pt-24 font-normal text-white mt-20 lg:text-6xl lg:leading-loose lg:pt-[12rem]">
+                PARKIRAJ IZGOVORE DRUGAM!
+            </p>
+            <p
+                class="w-[342px] text-center  font-normal text-white mr-auto ml-auto pt-[54px] lg:text-3xl lg:w-[743px] lg:pt-[7rem]">
+                Kampanja ozaveščanja o problematiki neupravičenega parkiranja na
+                mestih, rezerviranih za invalide.
+            </p>
+
+
+            <div class="mt-[3rem] pb-[7rem]">
+                <button class="Proglej block text-white ml-auto mr-auto p-[16px] lg:mt-[8rem] lg:text-3xl lg:font-bold"
+                    onclick="startvideo()">
+                    POGLEJ VIDEO
+                </button>
+            </div>
+
+            <div>
+                <img src="./asserts/redline.png" alt="" class="w-[100%]" />
+            </div>
+
+            <div class="flex flex-wrap">
+                <div class="projektu basis-6/12 leading-loose">
+                    <h2 class="text-center pt-[10px] pb-[10px]">
+                        <a href="./Projektu.html" class="text-white">
+                            O projektu &gt;&gt;
+                        </a>
+                    </h2>
+
+                </div>
+                <div class="projektu Raziskava basis-6/12">
+                    <h2 class="text-center pt-[10px] pb-[10px]">
+                        <a href="./Raziskwa.html" class="text-white ">
+                            Raziskava &gt;&gt;
+                        </a>
+                    </h2>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="vedio" id="video">
+            <iframe src="https://www.youtube.com/embed/RW49m-OqskE" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="d-pod relative">
+            <div class="d-pod1 flex flex-wrap ml-[1.2rem] mr-[1rem] lg:ml-[5rem]  lg:mr-[2rem] ">
+                <div class="flex flex-wrap lg:ml-[5rem] mt-[5rem]">
+                    <div class="images basis-auto">
+                        <img src="./asserts/Rectangle.png" alt="" class="relative" />
+                        <img src="./asserts/questionMark.png" alt="" class="absolute mt-[-9rem] ml-[3rem]" />
+                    </div>
+
+                    <div class="basis-auto lg:ml-[4rem]">
+                        <p class="mb-[2rem] mt-[2rem] font-bold lg:mt-[0px] lg:leading-loose text-3xl lg:text-5xl">
+                            Kaj želimo doseči
+                        </p>
+                        <ul>
+                            <li class="mb-[1rem] lg:w-[565px] text-lg">
+                                Ozaveščati o problematiki parkiranja invalidov in krepiti
+                                solidarnost do sočloveka v prometu in širši družbi.
+                            </li>
+                            <li class="mb-[1rem] lg:w-[565px] text-lg">
+                                Izpostaviti zaskrbljujoče rezultate raziskave, ki nakazujejo
+                                na nizko raven kulture v družbi in posluha do invalidov.
+                            </li>
+                            <li class="mb-[1rem] lg:w-[565px] text-lg">
+                                Vplivati na izboljšanje razmer, vezanih na parkiranje na
+                                parkirnih mestih, rezerviranih za invalide.
+                            </li>
+                            <li class="mb-[1rem] lg:w-[565px] text-lg">
+                                Spodbuditi širšo javno debato o kulturi v prometu in
+                                vključenosti.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="text-section-1 flex flex-wrap lg:ml-[14rem] mt-[5rem]">
+                    <div class="images basis-auto">
+                        <img src="./asserts/Rectangle.png" alt="" class="relative" />
+                        <img src="./asserts/exlamation.png" alt="" class="absolute mt-[-9rem] ml-[4.4rem]" />
+                    </div>
+
+                    <div class="basis-auto lg:ml-[4rem] lg:pb-[3rem]">
+                        <p class="mb-[2rem] mt-[2rem] font-bold lg:mt-[0px] lg:leading-loose text-3xl lg:text-5xl">
+                            Kako bomo to storili?
+                        </p>
+                        <ul>
+                            <li class="mb-[1rem] lg:w-[565px] text-lg">
+                                S predstavitvijo rezultatov raziskave in s spodbujanjem javne
+                                debate.
+                            </li>
+                            <li class="mb-[1rem] lg:w-[565px] text-lg">
+                                S strokovno razpravo o učinkovitosti obstoječega sistema
+                                nadzora, označevanja in kaznovanja neupravičenega parkiranja
+                                na parkirnih mestih, rezerviranih za invalide.
+                            </li>
+                            <li class="mb-[1rem] lg:w-[565px] text-lg">
+                                S kampanjo, ki bo usmerjena na ozaveščanje in izobraževanje
+                                širše javnosti o problematiki parkiranja na mestih,
+                                rezerviranih za invalide.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-[2rem] chart">
+            <img src="./asserts/chart.png" alt="" />
+        </div>
+
+        <div class="icons mt-[6rem]">
+            <div class="">
+                <p class="text-center leading-loose font-normal text-4xl line">Partnerji projekta</p>
+            </div>
+            <div class="flex flex-wrap mt-[1rem] sm:mt-[5rem] ml-[1rem] mr-[1rem] lg:ml-[3rem] lg:mr-[3rem]">
+                <div class="sm:basis-1/4 basis-full">
+                    <img src="./asserts/icon1.png" alt="" class="ml-auto mr-auto sm:ml-0 sm:mr-0" />
+                </div>
+                <div class="sm:basis-1/4 basis-full">
+                    <img src="./asserts/icon2.png" alt="" class="ml-auto mr-auto sm:ml-0 sm:mr-0" />
+                </div>
+                <div class="sm:basis-1/4 basis-full">
+                    <img src="./asserts/icon3.png" alt="" class="ml-auto mr-auto sm:ml-0 sm:mr-0" />
+                </div>
+                <div class="sm:basis-1/4 basis-full">
+                    <img src="./asserts/icon4.png" alt="" class="ml-auto mr-auto sm:ml-0 sm:mr-0" />
+                </div>
+            </div>
+        </div>
+
+        <div class="icons mt-[6rem]">
+            <div class="">
+                <p class="text-center font-normal leading-loose text-4xl line">Podpirajo nas</p>
+            </div>
+            <div class="flex flex-wrap mt-[5rem] ml-[1rem] mr-[1rem] lg:ml-[3rem] lg:mr-[3rem]">
+                <div class="lg:basis-1/4 sm:basis-1/4 basis-1/2">
+                    <img src="./asserts/Icon5.png" alt="" />
+                </div>
+                <div class="lg:basis-1/4 sm:basis-1/4 basis-1/2">
+                    <img src="./asserts/Icon6.png" alt="" />
+                </div>
+                <div class="lg:basis-1/4 sm:basis-1/4 basis-1/2">
+                    <img src="./asserts/Icon7.png" alt="" />
+                </div>
+                <div class="lg:basis-1/4 sm:basis-1/4 basis-1/2">
+                    <img src="./asserts/Icon8.png" alt="" />
+                </div>
+            </div>
+
+            <div
+                class="flex flex-wrap sm:mt-[5rem] sm:ml-[3rem] sm:mr-[3rem] lg:ml-[7rem] lg:mr-[7rem] sm:justify-center ml-[1rem] mr-[src1rem]">
+                <div class="basis-1/2 sm:basis-auto">
+                    <img src="./asserts/Icon9.png" alt="" />
+                </div>
+                <div class="basis-1/2 sm:basis-auto">
+                    <img src="./asserts/Icon10.png" alt="" />
+                </div>
+                <div class="basis-1/2 sm:basis-auto">
+                    <img src="./asserts/icon1.png" alt="" />
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="gallery">
+
+        <div class="photos">
+            <div class="block block-1 active">
+                <div
+                    class="text-center w-[80%] ml-auto mr-auto text-white lg:w-[687px] md:pt-[6rem] pt-[3rem] text-lg font-normal">
+                    Zelo dobro poznamo zagate gibalno oviranih, s katerimi se srečujejo
+                    ob mobilnosti v vsakdanjem okolju. Na URI - Soča se dnevno srečujemo
+                    z napačno parkiranimi vozili na prostorih, ki so označeni za
+                    parkiranje za invalide. Proti takšnemu ravnanju se borimo z
+                    osveščanjem in če je potrebno, vozila tudi odstranimo.
+                </div>
+                <div
+                    class="text-center ml-auto mr-auto text-white lg:w-[687px] mt-[3rem] pb-[3rem] text-lg font-normal">
+                    <p class="">Mag. Robert Cugelj</p>
+                    <p class="">
+                        generalni direktor Univerzitetnega rehabilitacijskega inštituta RS
+                        - Soča
+                    </p>
+                </div>
+            </div>
+
+            <div class="block block-2">
+                <div
+                    class="text-center w-[80%] ml-auto mr-auto text-white lg:w-[687px] md:pt-[6rem] pt-[3rem] text-lg font-normal">
+                    ki so označeni za
+                    parkiranje za invalide. Proti takšnemu ravnanju se borimo z
+                    osveščanjem in če je potrebno, vozila tudi odstranimo.Zelo dobro poznamo zagate gibalno
+                    oviranih, s katerimi se srečujejo
+                    ob mobilnosti v vsakdanjem okolju. Na URI - Soča se dnevno srečujemo
+                    z napačno parkiranimi vozili na prostorih.
+                </div>
+                <div
+                    class="text-center ml-auto mr-auto text-white lg:w-[687px] mt-[3rem] pb-[3rem] text-lg font-normal">
+                    <p class="">
+                        generalni direktor Univerzitetnega rehabilitacijskega inštituta RS
+                        - Soča
+                    </p>
+                    <p class="">Mag. Robert Cugelj</p>
+                </div>
+            </div>
+
+            <div class="block block-3">
+                <div
+                    class="text-center w-[80%] ml-auto mr-auto text-white lg:w-[687px] md:pt-[6rem] pt-[3rem] text-lg font-normal">
+                    Zelo dobro poznamo zagate gibalno oviranih, s katerimi se srečujejo
+                    ob mobilnosti v vsakdanjem okolju. Na URI - Soča se dnevno srečujemo
+                    z napačno parkiranimi vozili na prostorih, ki so označeni za
+                    parkiranje za invalide. Proti takšnemu ravnanju se borimo z
+                    osveščanjem in če je potrebno, vozila tudi odstranimo.
+                </div>
+                <div
+                    class="text-center ml-auto mr-auto text-white lg:w-[687px] mt-[3rem] pb-[3rem] text-lg font-normal">
+                    <p class="">Mag. Robert Cugelj</p>
+                    <p class="">
+                        generalni direktor Univerzitetnega rehabilitacijskega inštituta RS
+                        - Soča
+                    </p>
+                </div>
+            </div>
+
+            <div class="block block-4">
+                <div
+                    class="text-center w-[80%] ml-auto mr-auto text-white lg:w-[687px] md:pt-[6rem] pt-[3rem] text-lg font-normal">
+                    ki so označeni za
+                    parkiranje za invalide. Proti takšnemu ravnanju se borimo z
+                    osveščanjem in če je potrebno, vozila tudi odstranimo.Zelo dobro poznamo zagate gibalno
+                    oviranih, s katerimi se srečujejo
+                    ob mobilnosti v vsakdanjem okolju. Na URI - Soča se dnevno srečujemo
+                    z napačno parkiranimi vozili na prostorih.
+                </div>
+                <div
+                    class="text-center ml-auto mr-auto text-white lg:w-[687px] mt-[3rem] pb-[3rem] text-lg font-normal">
+                    <p class="">
+                        generalni direktor Univerzitetnega rehabilitacijskega inštituta RS
+                        - Soča
+                    </p>
+                    <p class="">Mag. Robert Cugelj</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="prev">
+                <img src="./asserts/left.png" alt="">
+            </button>
+            <button class="next">
+                <img src="./asserts/right.png" alt="">
+            </button>
+        </div>
+    </div>
+
+    <div class='footer mt-[-2rem]'>
+        <div class='lg:ml-[6rem] lg:mr-[6rem] text-center  p-[2rem] text-lg font-normal mt-[2rem] co'>
+            Raziskovalna dejavnost in projekt Parkiraj izgovore drugam (ne na mesta, rezervirana za invalide) sta
+            podprta s strani Javne agencije Republike Slovenije za varnost prometa in Mestne občine Ljubljana.
+        </div>
+        <div class='text-center footer1 h-[80px] lg:h-[53px]'>
+            <p class='text-white pt-[11px] text-lg font-normal'> © 2020 - Parkiraj izgovore drugam. Vse pravice
+                pridržane. </p>
+        </div>
+    </div>
+
+</body>
+<script src="./Index.js"></script>
+
+</html>
